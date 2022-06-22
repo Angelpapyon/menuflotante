@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(26, 24, 24);
+    background-image: url(/img/fondouno.jpg);
+    background-blend-mode:color-dodge;
+    margin-left: 30px;/*margen de la pagina izquierda*/
+    margin-right: 30px;/*margen de pagina derecha*/
+}
+.menu{
+   margin-top: 1px;/*margen tope de la pagina*/
+   margin-left: 5%;/* borde de tope de izquierda*/
+   margin-right: 5%;/*borde de tope de derecha*/
+  
+   padding-block: 1%;/**/
+   border: 5px;/**/
+   /*border-style: solid;
+   border-width: 3px;
+   border-color: aqua;*/
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   backdrop-filter: blur(1px);/*hacer transparente el fondo*/
+   overflow: visible;
+   
+   position: fixed;/*sirve parfa fijar el elemento en panyalla en todo momento*/
+   
+    
+}
+
+
+.letras{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-style: solid;/*borde tipo solido de borde*/
+  padding-block: 5px 5px;/*esapcio de arriba y abajo del margen*/
+  padding-left: 7px; /*espacio izquierda del texto*/
+  padding-right: 7px;/*espacio derecha del texto*/
+  /*background-color: rgb(26, 207, 87);/*color de fondo*/
+  font-weight: 900;/*poner en negrillas las letras del 100 al 900* o utilizar strong en html*/
+  text-decoration: none;/*quita el subrayado de los links*/
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  
+  
+  
+
+}
+.letras:hover{
+    font-size: 60px;
+    border-color: rgb(162, 0, 255);
+    background-image: url(/img/pacman.jpg);
+    background-size: 50px;
+    background-position: center;/*centrar imagen de las letras*/
+}
+p{
+    background-color: black;
+    color: aqua;
+    border-style:groove;/*tipo de borde*/
+    border-width: 4px;/*grosor de borde*/
+    font-size: 10pt;
+}
+.letramay{
+    font-size: 60px;/*tamaño de letra*/
+    font-weight: 900;/*letras en negrilla*/
+    -webkit-text-stroke:3px rgb(255, 0, 0) ;
+}
+.contenido{
+    
+    padding: 1px 1px;/*disctancia entre textos*/
+    text-align: center;
+    padding-top:110px;/*importante magen tope hacia arriba del menu al tope*/
+    max-width: 24%;/*maximo de espacio del 100% un 33%*/
+    float: left; /*La propiedad float posiciona una caja moviéndola todo lo posible a la izquierda o derecha de su posición original.*/
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    list-style: none;/*pierde los estilos de lista*/
+    margin: 0px;
+    padding: 0px;
+
+}
+#menuflotante{
+    
+    position: fixed;
+    top: 0%;
+    text-align: center;/*alinea el texto del menu*/
+
+    
+
+    }
+.nav >li{   /*acomoda la lista con las sub listas en orden*/
+    float: left;/*acomoda un elemnto al lado de otro hacia la izquierda*/
+      
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    
+}
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+   
+   
+}
+.nav li:hover > ul {
+    display:block;/*sirve para mostar el contenido de la sublista*/
+}
+
+#redi{
+    width: 100%;
+    text-align: center;
+}
+
+ 
